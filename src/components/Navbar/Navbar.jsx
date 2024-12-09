@@ -17,8 +17,10 @@ export default function Navbar() {
                     <img className="logo" src={logo} alt="" />
                 </div>
                 <div className="nav-middle flex-div">
-                    <input type="text" placeholder="Search" />
-                    <img src={search_icon} alt="" />
+                    <div className="search-box flex-div">
+                        <input type="text" placeholder="Search" />
+                        <img src={search_icon} alt="" />
+                    </div>
                 </div>
                 <div className="nav-right flex-div">
                     <img src={upload_icon} alt="" />
