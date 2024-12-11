@@ -8,7 +8,7 @@ import notification_icon from "../../assets/notification.png"
 import profile_icon from "../../assets/jack.png"
 
 
-export default function Navbar() {
+export default function Navbar({setSidebar}) {
     return (
         <>
             <nav className="flex-div">
